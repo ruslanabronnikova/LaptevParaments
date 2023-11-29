@@ -188,7 +188,7 @@ const double& Array::operator[](size_type index) const
 int main()
 {
     int size, c = 1;
-    double elem, sum = 0, aver = 0;
+    double element, sum = 0, aver = 0;
 
     std::cin >> size;
 
@@ -196,9 +196,9 @@ int main()
 
     for (int i = 0; i < size; i++)
     {
-        std::cin >> elem;
+        std::cin >> element;
 
-        arr.push_back(elem);
+        arr.push_back(element);
     }
 
     std::cout << arr.size() << '\n';
@@ -231,9 +231,9 @@ int main()
             switch (c)
             {
             case 1:
-                std::cin >> elem;
+                std::cin >> element;
 
-                arr.push_back(elem);
+                arr.push_back(element);
 
                 std::cout << "+:" << arr.size() << '\n';
 
